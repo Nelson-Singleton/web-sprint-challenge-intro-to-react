@@ -13,11 +13,14 @@ const Charactercard = (props) => {
             <h2>
                 {card.name}
             </h2>
+            <h2>
+                {card.gender}
+            </h2>
             <h3>
-                {card.birth_year}
+                {card.height}
             </h3>
             <h3>
-                {card.homeworld}
+                {card.mass}
             </h3>
         </div>
 
