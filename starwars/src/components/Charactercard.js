@@ -8,8 +8,6 @@ const Charactercard = (props) => {
    
     const { card, setData } = props;
 
-    
-
     const StyledDiv = styled.div`
     margin-top: 5%;
     width: 45%;
@@ -29,10 +27,8 @@ const Charactercard = (props) => {
     
     `;
 
-    return (
-        
-        <StyledDiv>
-        
+    return (        
+        <StyledDiv>        
             <StyledH2>
                 {`Name: ${card.name}`}
             </StyledH2>
@@ -46,10 +42,7 @@ const Charactercard = (props) => {
                 {`Weight: ${card.mass}`}
             </StyledH3>
         </StyledDiv>
-        
-
     );
-
 };
 
 export default Charactercard;
