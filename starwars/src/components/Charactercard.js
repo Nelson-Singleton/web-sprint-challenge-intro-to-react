@@ -11,7 +11,7 @@ const Charactercard = (props) => {
 
         <div>
             <h2>
-                {/* {card.name} */}
+                {card.name}
             </h2>
             <h3>
                 {card.birth_year}

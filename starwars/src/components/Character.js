@@ -8,11 +8,15 @@ const Character = (props) => {
     return(
 
         <div>
-             {
-            //      starWarsData.map (ch => {
-            //       return <Charactercard card={ch} key = {index}/> 
-            //    })
-         }
+            {
+                 starWarsData.map(ch => {
+                    return <h2> {`${ch.name} ------------ Born: ${ch.birth_year}`}</h2>  
+                 
+                })
+                     
+                                
+               
+            }
         </div>
 
     );
