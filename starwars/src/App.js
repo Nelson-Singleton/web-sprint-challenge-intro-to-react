@@ -2,6 +2,8 @@ import React, { useState, useEffect} from "react";
 import './App.css';
 import axios from 'axios';
 import styled from 'styled-components'
+import Character from '../src/components/Character'
+import Charactercard from '../src/components/Charactercard'
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -31,6 +33,7 @@ useEffect(() => {
 
   return (
     <div className="App">
+      <Character starWarsData = {starWarsData}/>
       
     </div>
   );
